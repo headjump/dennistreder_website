@@ -1,0 +1,2500 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 22, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 125, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 154, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 190, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 201, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 270, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 282, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 297, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 307, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 317, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 341, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 350, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /home/headjump/develop/_own/dennistreder/source/stylesheets/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 27, /home/headjump/develop/_own/dennistreder/source/stylesheets/_helper.css.sass */
+.clear {
+  clear: both; }
+
+/*!
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("font/fontawesome-webfont.eot?v=4.1.0");
+  src: url("font/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("font/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("font/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("font/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ul > li {
+  position: relative; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: .14285714em;
+  text-align: center; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-li.fa-lg {
+  left: -1.85714286em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.pull-right {
+  float: right; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.pull-left {
+  float: left; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa.pull-left {
+  margin-right: .3em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa.pull-right {
+  margin-left: .3em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear; }
+
+@-moz-keyframes spin {
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  0% {
+    -moz-transform: rotate(0deg); }
+
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  100% {
+    -moz-transform: rotate(359deg); } }
+
+@-webkit-keyframes spin {
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  0% {
+    -webkit-transform: rotate(0deg); }
+
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  100% {
+    -webkit-transform: rotate(359deg); } }
+
+@-o-keyframes spin {
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  0% {
+    -o-transform: rotate(0deg); }
+
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  100% {
+    -o-transform: rotate(359deg); } }
+
+@keyframes spin {
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-inverse {
+  color: #fff; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-glass:before {
+  content: "\f000"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-music:before {
+  content: "\f001"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-search:before {
+  content: "\f002"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-envelope-o:before {
+  content: "\f003"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-heart:before {
+  content: "\f004"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-star:before {
+  content: "\f005"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-star-o:before {
+  content: "\f006"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-user:before {
+  content: "\f007"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-film:before {
+  content: "\f008"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-th-large:before {
+  content: "\f009"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-th:before {
+  content: "\f00a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-th-list:before {
+  content: "\f00b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-check:before {
+  content: "\f00c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-times:before {
+  content: "\f00d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-search-minus:before {
+  content: "\f010"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-power-off:before {
+  content: "\f011"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-signal:before {
+  content: "\f012"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-trash-o:before {
+  content: "\f014"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-home:before {
+  content: "\f015"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-o:before {
+  content: "\f016"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-clock-o:before {
+  content: "\f017"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-road:before {
+  content: "\f018"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-download:before {
+  content: "\f019"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-inbox:before {
+  content: "\f01c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-play-circle-o:before {
+  content: "\f01d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-refresh:before {
+  content: "\f021"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-list-alt:before {
+  content: "\f022"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-lock:before {
+  content: "\f023"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flag:before {
+  content: "\f024"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-headphones:before {
+  content: "\f025"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-volume-off:before {
+  content: "\f026"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-volume-down:before {
+  content: "\f027"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-volume-up:before {
+  content: "\f028"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-qrcode:before {
+  content: "\f029"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-barcode:before {
+  content: "\f02a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tag:before {
+  content: "\f02b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tags:before {
+  content: "\f02c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-book:before {
+  content: "\f02d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bookmark:before {
+  content: "\f02e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-print:before {
+  content: "\f02f"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-camera:before {
+  content: "\f030"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-font:before {
+  content: "\f031"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bold:before {
+  content: "\f032"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-italic:before {
+  content: "\f033"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-text-height:before {
+  content: "\f034"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-text-width:before {
+  content: "\f035"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-align-left:before {
+  content: "\f036"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-align-center:before {
+  content: "\f037"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-align-right:before {
+  content: "\f038"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-align-justify:before {
+  content: "\f039"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-list:before {
+  content: "\f03a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-indent:before {
+  content: "\f03c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-video-camera:before {
+  content: "\f03d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pencil:before {
+  content: "\f040"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-map-marker:before {
+  content: "\f041"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-adjust:before {
+  content: "\f042"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tint:before {
+  content: "\f043"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-share-square-o:before {
+  content: "\f045"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-check-square-o:before {
+  content: "\f046"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrows:before {
+  content: "\f047"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-step-backward:before {
+  content: "\f048"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fast-backward:before {
+  content: "\f049"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-backward:before {
+  content: "\f04a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-play:before {
+  content: "\f04b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pause:before {
+  content: "\f04c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stop:before {
+  content: "\f04d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-forward:before {
+  content: "\f04e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fast-forward:before {
+  content: "\f050"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-step-forward:before {
+  content: "\f051"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-eject:before {
+  content: "\f052"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-plus-circle:before {
+  content: "\f055"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-minus-circle:before {
+  content: "\f056"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-times-circle:before {
+  content: "\f057"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-check-circle:before {
+  content: "\f058"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-question-circle:before {
+  content: "\f059"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-info-circle:before {
+  content: "\f05a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-crosshairs:before {
+  content: "\f05b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-times-circle-o:before {
+  content: "\f05c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-check-circle-o:before {
+  content: "\f05d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ban:before {
+  content: "\f05e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-left:before {
+  content: "\f060"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-right:before {
+  content: "\f061"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-up:before {
+  content: "\f062"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-down:before {
+  content: "\f063"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-expand:before {
+  content: "\f065"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-compress:before {
+  content: "\f066"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-plus:before {
+  content: "\f067"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-minus:before {
+  content: "\f068"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-asterisk:before {
+  content: "\f069"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gift:before {
+  content: "\f06b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-leaf:before {
+  content: "\f06c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fire:before {
+  content: "\f06d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-eye:before {
+  content: "\f06e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-eye-slash:before {
+  content: "\f070"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-plane:before {
+  content: "\f072"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-calendar:before {
+  content: "\f073"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-random:before {
+  content: "\f074"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-comment:before {
+  content: "\f075"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-magnet:before {
+  content: "\f076"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-up:before {
+  content: "\f077"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-down:before {
+  content: "\f078"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-retweet:before {
+  content: "\f079"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-shopping-cart:before {
+  content: "\f07a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-folder:before {
+  content: "\f07b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-folder-open:before {
+  content: "\f07c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrows-v:before {
+  content: "\f07d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrows-h:before {
+  content: "\f07e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bar-chart-o:before {
+  content: "\f080"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-twitter-square:before {
+  content: "\f081"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-camera-retro:before {
+  content: "\f083"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-key:before {
+  content: "\f084"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-comments:before {
+  content: "\f086"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-thumbs-o-up:before {
+  content: "\f087"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-thumbs-o-down:before {
+  content: "\f088"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-star-half:before {
+  content: "\f089"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-heart-o:before {
+  content: "\f08a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sign-out:before {
+  content: "\f08b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-linkedin-square:before {
+  content: "\f08c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-thumb-tack:before {
+  content: "\f08d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-external-link:before {
+  content: "\f08e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sign-in:before {
+  content: "\f090"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-trophy:before {
+  content: "\f091"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-github-square:before {
+  content: "\f092"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-upload:before {
+  content: "\f093"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-lemon-o:before {
+  content: "\f094"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-phone:before {
+  content: "\f095"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-square-o:before {
+  content: "\f096"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bookmark-o:before {
+  content: "\f097"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-phone-square:before {
+  content: "\f098"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-twitter:before {
+  content: "\f099"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-facebook:before {
+  content: "\f09a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-github:before {
+  content: "\f09b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-unlock:before {
+  content: "\f09c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-credit-card:before {
+  content: "\f09d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rss:before {
+  content: "\f09e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hdd-o:before {
+  content: "\f0a0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bullhorn:before {
+  content: "\f0a1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bell:before {
+  content: "\f0f3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-certificate:before {
+  content: "\f0a3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hand-o-right:before {
+  content: "\f0a4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hand-o-left:before {
+  content: "\f0a5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hand-o-up:before {
+  content: "\f0a6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hand-o-down:before {
+  content: "\f0a7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-left:before {
+  content: "\f0a8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-right:before {
+  content: "\f0a9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-up:before {
+  content: "\f0aa"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-down:before {
+  content: "\f0ab"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-globe:before {
+  content: "\f0ac"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-wrench:before {
+  content: "\f0ad"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tasks:before {
+  content: "\f0ae"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-filter:before {
+  content: "\f0b0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-briefcase:before {
+  content: "\f0b1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrows-alt:before {
+  content: "\f0b2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cloud:before {
+  content: "\f0c2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flask:before {
+  content: "\f0c3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-paperclip:before {
+  content: "\f0c6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-square:before {
+  content: "\f0c8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-list-ul:before {
+  content: "\f0ca"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-list-ol:before {
+  content: "\f0cb"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-strikethrough:before {
+  content: "\f0cc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-underline:before {
+  content: "\f0cd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-table:before {
+  content: "\f0ce"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-magic:before {
+  content: "\f0d0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-truck:before {
+  content: "\f0d1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pinterest:before {
+  content: "\f0d2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-google-plus:before {
+  content: "\f0d5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-money:before {
+  content: "\f0d6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-caret-up:before {
+  content: "\f0d8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-caret-left:before {
+  content: "\f0d9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-caret-right:before {
+  content: "\f0da"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-columns:before {
+  content: "\f0db"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-envelope:before {
+  content: "\f0e0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-linkedin:before {
+  content: "\f0e1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-comment-o:before {
+  content: "\f0e5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-comments-o:before {
+  content: "\f0e6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sitemap:before {
+  content: "\f0e8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-umbrella:before {
+  content: "\f0e9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-lightbulb-o:before {
+  content: "\f0eb"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-exchange:before {
+  content: "\f0ec"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cloud-download:before {
+  content: "\f0ed"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cloud-upload:before {
+  content: "\f0ee"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-user-md:before {
+  content: "\f0f0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stethoscope:before {
+  content: "\f0f1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-suitcase:before {
+  content: "\f0f2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bell-o:before {
+  content: "\f0a2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-coffee:before {
+  content: "\f0f4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cutlery:before {
+  content: "\f0f5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-text-o:before {
+  content: "\f0f6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-building-o:before {
+  content: "\f0f7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hospital-o:before {
+  content: "\f0f8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ambulance:before {
+  content: "\f0f9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-medkit:before {
+  content: "\f0fa"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fighter-jet:before {
+  content: "\f0fb"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-beer:before {
+  content: "\f0fc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-h-square:before {
+  content: "\f0fd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-plus-square:before {
+  content: "\f0fe"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-double-left:before {
+  content: "\f100"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-double-right:before {
+  content: "\f101"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-double-up:before {
+  content: "\f102"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-double-down:before {
+  content: "\f103"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-left:before {
+  content: "\f104"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-right:before {
+  content: "\f105"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-up:before {
+  content: "\f106"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-angle-down:before {
+  content: "\f107"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-desktop:before {
+  content: "\f108"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-laptop:before {
+  content: "\f109"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tablet:before {
+  content: "\f10a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-circle-o:before {
+  content: "\f10c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-quote-right:before {
+  content: "\f10e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-spinner:before {
+  content: "\f110"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-circle:before {
+  content: "\f111"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-github-alt:before {
+  content: "\f113"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-folder-o:before {
+  content: "\f114"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-folder-open-o:before {
+  content: "\f115"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-smile-o:before {
+  content: "\f118"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-frown-o:before {
+  content: "\f119"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-meh-o:before {
+  content: "\f11a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gamepad:before {
+  content: "\f11b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-keyboard-o:before {
+  content: "\f11c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flag-o:before {
+  content: "\f11d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flag-checkered:before {
+  content: "\f11e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-terminal:before {
+  content: "\f120"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-code:before {
+  content: "\f121"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-location-arrow:before {
+  content: "\f124"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-crop:before {
+  content: "\f125"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-code-fork:before {
+  content: "\f126"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-question:before {
+  content: "\f128"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-info:before {
+  content: "\f129"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-exclamation:before {
+  content: "\f12a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-superscript:before {
+  content: "\f12b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-subscript:before {
+  content: "\f12c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-eraser:before {
+  content: "\f12d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-puzzle-piece:before {
+  content: "\f12e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-microphone:before {
+  content: "\f130"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-microphone-slash:before {
+  content: "\f131"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-shield:before {
+  content: "\f132"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-calendar-o:before {
+  content: "\f133"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fire-extinguisher:before {
+  content: "\f134"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rocket:before {
+  content: "\f135"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-maxcdn:before {
+  content: "\f136"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-circle-left:before {
+  content: "\f137"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-circle-right:before {
+  content: "\f138"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-circle-up:before {
+  content: "\f139"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-chevron-circle-down:before {
+  content: "\f13a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-html5:before {
+  content: "\f13b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-css3:before {
+  content: "\f13c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-anchor:before {
+  content: "\f13d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-unlock-alt:before {
+  content: "\f13e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bullseye:before {
+  content: "\f140"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ellipsis-h:before {
+  content: "\f141"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ellipsis-v:before {
+  content: "\f142"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rss-square:before {
+  content: "\f143"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-play-circle:before {
+  content: "\f144"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ticket:before {
+  content: "\f145"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-minus-square:before {
+  content: "\f146"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-minus-square-o:before {
+  content: "\f147"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-level-up:before {
+  content: "\f148"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-level-down:before {
+  content: "\f149"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-check-square:before {
+  content: "\f14a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pencil-square:before {
+  content: "\f14b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-external-link-square:before {
+  content: "\f14c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-share-square:before {
+  content: "\f14d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-compass:before {
+  content: "\f14e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gbp:before {
+  content: "\f154"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-won:before, .fa-krw:before {
+  content: "\f159"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file:before {
+  content: "\f15b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-text:before {
+  content: "\f15c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-alpha-asc:before {
+  content: "\f15d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-alpha-desc:before {
+  content: "\f15e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-amount-asc:before {
+  content: "\f160"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-amount-desc:before {
+  content: "\f161"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-numeric-asc:before {
+  content: "\f162"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sort-numeric-desc:before {
+  content: "\f163"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-thumbs-up:before {
+  content: "\f164"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-thumbs-down:before {
+  content: "\f165"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-youtube-square:before {
+  content: "\f166"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-youtube:before {
+  content: "\f167"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-xing:before {
+  content: "\f168"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-xing-square:before {
+  content: "\f169"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-youtube-play:before {
+  content: "\f16a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dropbox:before {
+  content: "\f16b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack-overflow:before {
+  content: "\f16c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-instagram:before {
+  content: "\f16d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-flickr:before {
+  content: "\f16e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-adn:before {
+  content: "\f170"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bitbucket:before {
+  content: "\f171"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bitbucket-square:before {
+  content: "\f172"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tumblr:before {
+  content: "\f173"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tumblr-square:before {
+  content: "\f174"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-long-arrow-down:before {
+  content: "\f175"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-long-arrow-up:before {
+  content: "\f176"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-long-arrow-left:before {
+  content: "\f177"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-long-arrow-right:before {
+  content: "\f178"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-apple:before {
+  content: "\f179"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-windows:before {
+  content: "\f17a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-android:before {
+  content: "\f17b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-linux:before {
+  content: "\f17c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dribbble:before {
+  content: "\f17d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-skype:before {
+  content: "\f17e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-foursquare:before {
+  content: "\f180"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-trello:before {
+  content: "\f181"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-female:before {
+  content: "\f182"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-male:before {
+  content: "\f183"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-gittip:before {
+  content: "\f184"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sun-o:before {
+  content: "\f185"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-moon-o:before {
+  content: "\f186"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-archive:before {
+  content: "\f187"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bug:before {
+  content: "\f188"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-vk:before {
+  content: "\f189"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-weibo:before {
+  content: "\f18a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-renren:before {
+  content: "\f18b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pagelines:before {
+  content: "\f18c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stack-exchange:before {
+  content: "\f18d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-arrow-circle-o-left:before {
+  content: "\f190"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-dot-circle-o:before {
+  content: "\f192"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-wheelchair:before {
+  content: "\f193"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-vimeo-square:before {
+  content: "\f194"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-plus-square-o:before {
+  content: "\f196"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-space-shuttle:before {
+  content: "\f197"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-slack:before {
+  content: "\f198"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-envelope-square:before {
+  content: "\f199"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-wordpress:before {
+  content: "\f19a"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-openid:before {
+  content: "\f19b"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-yahoo:before {
+  content: "\f19e"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-google:before {
+  content: "\f1a0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-reddit:before {
+  content: "\f1a1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-stumbleupon:before {
+  content: "\f1a4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-delicious:before {
+  content: "\f1a5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-digg:before {
+  content: "\f1a6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pied-piper-square:before, .fa-pied-piper:before {
+  content: "\f1a7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-drupal:before {
+  content: "\f1a9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-joomla:before {
+  content: "\f1aa"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-language:before {
+  content: "\f1ab"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-fax:before {
+  content: "\f1ac"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-building:before {
+  content: "\f1ad"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-child:before {
+  content: "\f1ae"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-paw:before {
+  content: "\f1b0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-spoon:before {
+  content: "\f1b1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cube:before {
+  content: "\f1b2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cubes:before {
+  content: "\f1b3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-behance:before {
+  content: "\f1b4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-behance-square:before {
+  content: "\f1b5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-steam:before {
+  content: "\f1b6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-recycle:before {
+  content: "\f1b8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tree:before {
+  content: "\f1bb"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-spotify:before {
+  content: "\f1bc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-deviantart:before {
+  content: "\f1bd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-soundcloud:before {
+  content: "\f1be"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-database:before {
+  content: "\f1c0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-pdf-o:before {
+  content: "\f1c1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-word-o:before {
+  content: "\f1c2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-excel-o:before {
+  content: "\f1c3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-file-code-o:before {
+  content: "\f1c9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-vine:before {
+  content: "\f1ca"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-codepen:before {
+  content: "\f1cb"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-jsfiddle:before {
+  content: "\f1cc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-life-bouy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-circle-o-notch:before {
+  content: "\f1ce"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-git:before {
+  content: "\f1d3"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-hacker-news:before {
+  content: "\f1d4"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-tencent-weibo:before {
+  content: "\f1d5"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-qq:before {
+  content: "\f1d6"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-history:before {
+  content: "\f1da"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-circle-thin:before {
+  content: "\f1db"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-header:before {
+  content: "\f1dc"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-paragraph:before {
+  content: "\f1dd"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-sliders:before {
+  content: "\f1de"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-share-alt:before {
+  content: "\f1e0"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-share-alt-square:before {
+  content: "\f1e1"; }
+
+/* line 5, /home/headjump/develop/_own/dennistreder/source/stylesheets/font/font-awesome.min.css */
+.fa-bomb:before {
+  content: "\f1e2"; }
+
+/* line 29, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+body {
+  font-family: "open_sanslight", sans-serif;
+  background: #3b3b3b;
+  color: white;
+  font-size: 1.1em;
+  line-height: 1.45em;
+  text-align: center; }
+  /* line 37, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+  body ul, body ol {
+    list-style-position: outside;
+    margin-left: -0.5em; }
+    @media screen and (max-width: 627px) {
+      /* line 37, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body ul, body ol {
+        margin-left: -1em; } }
+  /* line 43, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+  body a {
+    color: #00ba76;
+    text-decoration: none;
+    transition-property: text-shadow, color;
+    transition-duration: 0.2s; }
+    /* line 49, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+    body a:visited {
+      color: #00915c; }
+    /* line 51, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+    body a:hover, body a:visited:hover {
+      text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+      color: #07ffa5;
+      border-bottom: 1px dotted #00ba76; }
+  /* line 56, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+  body .wrap {
+    margin: 0 auto;
+    text-align: left;
+    width: 580px; }
+    @media screen and (max-width: 627px) {
+      /* line 56, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap {
+        width: auto;
+        margin: 12px;
+        border: none; } }
+    /* line 65, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+    body .wrap .content {
+      margin-top: 12px;
+      margin-bottom: 12px; }
+      @media screen and (max-width: 627px) {
+        /* line 65, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+        body .wrap .content {
+          height: auto;
+          margin-top: auto;
+          margin-bottom: auto; } }
+      /* line 74, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content h1,
+      body .wrap .content h2,
+      body .wrap .content h3,
+      body .wrap .content h4 {
+        font-family: "roboto_condensedregular", sans-serif;
+        line-height: 1.45em;
+        color: white; }
+      /* line 81, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content h1,
+      body .wrap .content h2 {
+        font-weight: normal; }
+      /* line 85, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+        margin-top: 96px;
+        margin-bottom: 72px; }
+        @media screen and (max-width: 627px) {
+          /* line 85, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content h1 {
+            margin: 0;
+            margin-bottom: 24px;
+            text-align: center; } }
+        @media screen and (max-width: 627px) {
+          /* line 85, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content h1 {
+            display: block; } }
+        /* line 96, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+        body .wrap .content h1 .small {
+          font-family: "open_sanslight", sans-serif;
+          font-size: 0.5em;
+          line-height: 1.45em; }
+          /* line 100, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content h1 .small.break-after {
+            display: block; }
+      /* line 103, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content .intro {
+        padding-left: 190px;
+        _height: 216px;
+        min-height: 216px;
+        margin-bottom: 72px; }
+        @media screen and (max-width: 627px) {
+          /* line 103, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content .intro {
+            padding: 0;
+            _height: auto;
+            min-height: 0;
+            margin-bottom: 0; } }
+      /* line 115, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content .about {
+        color: #d2d2d2; }
+        /* line 117, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+        body .wrap .content .about h1, body .wrap .content .about h2, body .wrap .content .about h3, body .wrap .content .about h4 {
+          color: white; }
+      /* line 120, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content ul.featured {
+        padding: 18px;
+        background-color: #353535; }
+        /* line 124, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+        body .wrap .content ul.featured li {
+          margin-left: 1em; }
+        @media screen and (max-width: 627px) {
+          /* line 120, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content ul.featured {
+            margin-left: 0; } }
+      /* line 130, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .wrap .content .profile-image {
+        width: 154px;
+        height: 216px;
+        position: absolute;
+        overflow: hidden;
+        transition-property: height, border-radius;
+        transition-duration: 0.5s; }
+        @media screen and (max-width: 627px) {
+          /* line 130, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .wrap .content .profile-image {
+            text-align: center;
+            height: 154px;
+            overflow: hidden;
+            position: static;
+            margin: 0 auto;
+            border-radius: 77px; } }
+        /* line 145, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+        body .wrap .content .profile-image img {
+          width: 154px;
+          height: 216px; }
+          @media screen and (max-width: 627px) {
+            /* line 145, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+            body .wrap .content .profile-image img {
+              transition-property: margin-top;
+              transition-duration: 1s;
+              text-align: center;
+              margin: 0 auto;
+              position: relative;
+              margin-top: -31px; } }
+  /* line 157, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+  body .footer {
+    margin-top: 10em;
+    margin-bottom: 2em;
+    font-size: 0.75em; }
+    /* line 162, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+    body .footer ul, body .footer ol {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      list-style-position: outside; }
+      /* line 167, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .footer ul li, body .footer ol li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        margin-right: 1.5em; }
+        @media screen and (max-width: 627px) {
+          /* line 167, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+          body .footer ul li, body .footer ol li {
+            display: block;
+            margin-right: 0; } }
+    /* line 176, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+    body .footer a {
+      color: grey;
+      transition-duration: 0.2s; }
+      /* line 180, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .footer a:visited {
+        color: grey; }
+      /* line 182, /home/headjump/develop/_own/dennistreder/source/stylesheets/site.css.sass */
+      body .footer a:hover, body .footer a:visited:hover {
+        text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+        color: white;
+        border: none; }
