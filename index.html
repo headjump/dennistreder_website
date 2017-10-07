@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website of Dennis Treder, a developer, illustrator and user interface guy. Get quick info. Get in touch.">
+  <meta name="keywords" content="Dennis Treder, developer, illustrator, creative head, user interface, usability, software arcitecture, solid principles, actionscript, flex, ruby, javascript, unity, c sharp, c#">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon72.png">
+  <title>Hi, I&#39;m Dennis</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+  <!--[if gte IE 9]><!-->
+<script>
+  (function(){
+    var
+      paths = ["/stylesheets/font/text-and-title-fonts.css"];
+
+    while(paths.length > 0) {
+      (function() {
+        var
+          path = paths.pop(),
+          storage_key = "font_" + path.replace(/[\/\\.:-]]*/g, "_");
+
+        var addFont = function addFont() {
+          var style = document.createElement('style');
+          style.rel = 'stylesheet';
+          document.head.appendChild(style);
+          style.textContent = localStorage[storage_key];
+        };
+
+        try {
+          if (localStorage[storage_key]) {
+            // The font is in localStorage, we can load it directly
+            addFont();
+          } else {
+            // We have to first load the font file asynchronously
+            var request = new XMLHttpRequest();
+            request.open('GET', path, true);
+
+            request.onload = function () {
+              if (request.status >= 200 && request.status < 400) {
+                // We save the file in localStorage
+                localStorage[storage_key] = request.responseText;
+
+                // ... and load the font
+                addFont();
+              }
+            };
+
+            request.send();
+          }
+        } catch (ex) {
+          // synchroneous include
+          var style = document.createElement('link');
+          style.rel = 'stylesheet';
+          style.type = 'text/css';
+          style.href = path;
+          document.head.appendChild(style);
+        }
+      })();
+    }
+  }());
+</script>
+<!--<![endif]-->
+  <script src="/javascripts/modernizr.only_css_and_media.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+      
+<h1>
+  <span class="small break-after">Hello, I'm</span> Dennis Treder
+</h1>
+
+
+<div class="profile-image">
+  <img src="/images/dennis_treder.jpg" alt="Dennis Treder">
+</div>
+
+<div class="intro">
+
+  <p>
+    Nice to meet you. This is my web business card, so here it comes:
+  </p>
+
+  <ul class="featured">
+    <li>Creative Director at <a href="https://www.neopoly.de">Neopoly</a></li>
+    <li>Game developer, Illustrator, Workarounder</li>
+    <li>Feel free to <a href="mailto:hi@dennistreder.de">say 'Hi' <i class='fa fa-envelope-o'></i></a></li>
+  </ul>
+</div>
+
+
+
+<div class="about">
+
+  <h2>About</h2>
+  <p>
+    I specify and develop medium to large scale web applications with a focus on good usability. I am specialized in frontend development for dynamic applications and games, spanning HTML, Unity 3D and Flash.
+  </p>
+  <p>
+    Since 2006 I work at a Web-and-Mobile Development company in Bochum, Germany. Additionally I co-founded a Software Company with two talented friends in 2012 to combine our assets. We started out doing contract work and now concentrate on our own projects.
+  </p>
+  <p>
+    Occasionally I do illustration contract work, consulting and develop indie games.
+  </p>
+
+  <h2>In my free time</h2>
+  <p>
+    To balance out the desk work I enjoy activities like climbing, hiking, cross-training and inline-skating. I love reading - for myself and to my two kids - and drawing.
+  </p>
+
+</div>
+
+
+
+
+<div class="footer">
+  <ul>
+    <li><a href="/imprint">Imprint</a></li>
+    <li><a href="https://twitter.com/headjump"><i class='fa fa-twitter'></i> Twitter</a></li>
+    <li><a href="https://headjump.itch.io"><i class='fa fa-gamepad'></i> itch.io</a></li>
+    <li><a href="https://github.com/headjump"><i class='fa fa-github'></i> GitHub</a></li>
+  </ul>
+</div>
+    </div>
+  </div>
+</body>
+</html>
