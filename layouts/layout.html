@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website of Dennis Treder, a developer, illustrator and user interface guy. Get quick info. Get in touch.">
+  <meta name="keywords" content="Dennis Treder, developer, illustrator, creative head, user interface, usability, software arcitecture, solid principles, actionscript, flex, ruby, javascript, unity, c sharp, c#">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon72.png">
+  <title><%= title !== "" ? title : "Dennis Treder" %></title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+  <%- include(atRoot("partial/_include_font.html"), {paths: ["/stylesheets/font/text-and-title-fonts.css"]}) %>
+  <script src="/javascripts/modernizr.only_css_and_media.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+      <%- contents %>
+    </div>
+  </div>
+</body>
+</html>
